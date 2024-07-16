@@ -1,0 +1,20 @@
+READ A PACKET
+Code: Access-Request
+Identifier: 30
+Length: 168
+Service-Type: Text: "Login (1)", Hex: 00000001
+User-Name: Text: "user1", Hex: 7573657231
+Vendor ID: 311, MS-CHAP-Challenge: Text: "#........'.).^P.", Hex: 232EDCEB09EE1F13DB27B829955E50D0
+Vendor ID: 311, MS-CHAP2-Response: Text: ".......-......3..:............@...n..4...=.MG<S.".", Hex: 000095942E0DC72D867FB189D9C233E6C03A0000000000000000DABFF984400C8EB06E0EA934F0D39B3DEE4D473C53A822AA
+Calling-Station-Id: Text: "04:D9:F5:F8:E4:B8", Hex: 30343A44393A46353A46383A45343A4238
+NAS-Identifier: Text: "MikroTik", Hex: 4D696B726F54696B
+NAS-IP-Address: Text: "192.168.200.119", Hex: C0A8C877
+Message-Authenticator: Text: "n..{C.{x...7s...", Hex: 6EC3187B430D7B7818BBD33773BECDC7
+
+
+
+This is a basic login request username/password for winbox on a mikrotik
+
+sent with shared secret = secret
+user1 as username
+password1 as the password
